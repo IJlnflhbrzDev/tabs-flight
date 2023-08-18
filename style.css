@@ -1,0 +1,95 @@
+#pills-tab ul {
+  background-color: #000000;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+#pills-tab li {
+  width: 20%;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #000000;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+#pills-tab li:hover {
+  background: #3360EF;
+}
+#pills-tab li.active {
+  background-color: #3360EF !important;
+  color: white;
+}
+
+.nav-tab-title {
+  padding: 1em 1.5em;
+  width: 100%;
+}
+
+.nav-tab-title.active {
+  background-color: #3360EF;
+}
+
+.tab-content .tabs-heading-title {
+  color: #3960DB;
+  font-size: 16px;
+  font-weight: 400;
+}
+.tab-content .icon-list-title {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.radio-flight .form-check-label {
+  margin-right: 22px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.select2-container {
+  width: 100%;
+}
+
+.form-control:focus {
+  border-color: white !important;
+  border: 0;
+  box-shadow: none;
+}
+
+#single {
+  padding: 0 !important;
+  font-size: 18px;
+  font-weight: 700;
+}
+#single option {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-search {
+  padding: 11px 0px 11px 0px;
+  border-radius: 0px;
+}
+
+.input-select2 {
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #B2B2B2;
+}
+
+.select2-container--default .select2-selection--single, .form-control {
+  border: 0;
+}/*# sourceMappingURL=style.css.map */
